@@ -24,11 +24,12 @@
   <div class="navhint">Inteligência tributária</div>
   <button class="navlink active" id="navOverview">▦ &nbsp; Visão geral</button>
   <button class="navlink" id="navArchive">▤ &nbsp; Histórico legislativo</button>
+  <a class="navlink" href="./relatorios.html" style="text-decoration:none">▣ &nbsp; Relatórios agendados</a>
   <button class="navlink" id="navSources">⌁ &nbsp; Fontes e auditoria</button>
   <div class="sidebar-bottom">Monitoramento legislativo<strong>Central de Inteligência Fiscal</strong><span style="display:block;margin-top:9px">Reforma · Estados · Medicamentos · Transporte</span></div>
  </aside>
  <main class="main">
-  <div class="top"><div><div class="eyebrow">Painel de inteligência regulatória</div><h1>Central de Inteligência Fiscal</h1><p class="subtitle">Um único acervo para os cinco radares: Reforma Tributária, Fiscal Estadual, Isenções de Medicamentos, LE Logística e Relatório Farmacêutico. Registros iniciais: seleção de 2026, não exaustiva.</p></div><div class="toolbar"><button class="btn" id="exportBtn" title="Exportar registros em JSON">⇩ Exportar</button><button class="btn primary" id="importBtn" title="A importação afeta apenas este navegador; não publica para todos">＋ Importar JSON (teste local)</button><input type="file" id="fileInput" accept=".json,application/json" class="sr-only"></div></div>
+  <div class="top"><div><div class="eyebrow">Painel de inteligência regulatória</div><h1>Central de Inteligência Fiscal</h1><p class="subtitle">Um único acervo para os cinco radares: Reforma Tributária, Fiscal Estadual, Isenções de Medicamentos, LE Logística e Relatório Farmacêutico. Registros iniciais: seleção de 2026, não exaustiva.</p></div><div class="toolbar"><a class="btn" href="./relatorios.html" style="text-decoration:none;display:inline-flex;align-items:center">▣ Histórico dos relatórios</a><button class="btn" id="exportBtn" title="Exportar registros em JSON">⇩ Exportar</button><button class="btn primary" id="importBtn" title="A importação afeta apenas este navegador; não publica para todos">＋ Importar JSON (teste local)</button><input type="file" id="fileInput" accept=".json,application/json" class="sr-only"></div></div>
   <section class="stats" aria-label="Indicadores">
     <div class="stat"><div class="stat-top">Atualizações no filtro <span class="bubble">▤</span></div><div class="stat-number" id="kpiAll">0</div><div class="stat-note">Atos e orientações selecionados</div></div>
     <div class="stat"><div class="stat-top">Efeitos já iniciados <span class="bubble">✓</span></div><div class="stat-number" id="kpiEffective">0</div><div class="stat-note">Datas de efeito informadas</div></div>
