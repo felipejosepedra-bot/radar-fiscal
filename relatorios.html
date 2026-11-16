@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Histórico pesquisável dos relatórios de monitoramento fiscal arquivados na Central de Inteligência Fiscal">
+<title>Histórico de Relatórios | Central de Inteligência Fiscal</title>
+<style>
+:root{--bg:#f4f7fb;--white:#fff;--line:#dee6f0;--ink:#102339;--muted:#566579;--nav:#0d2337;--blue:#176a9b;--teal:#137d7b;--warning:#a8691b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font:14px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink)}a{color:var(--blue)}button,input,select{font:inherit}button{cursor:pointer}
+.topbar{background:var(--nav);color:#f7fbff;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:15px max(22px,calc((100vw - 1240px)/2))}
+.brand{font-size:17px;font-weight:850}.topbar a{color:#d7edfa;text-decoration:none;background:#21435b;padding:9px 14px;border-radius:9px;font-weight:700}.topbar a:hover{background:#315773}
+main{max-width:1240px;padding:32px 22px 90px;margin:auto}h1{font-size:29px;letter-spacing:-.8px;margin:4px 0 8px}h2{font-size:18px;margin:0}p{margin:0}.lead{color:var(--muted);max-width:880px}
+.note{padding:15px 18px;border:1px solid #eadcb4;background:#fff9e9;border-radius:13px;color:#745529;margin:22px 0 22px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0 23px}.stat,.panel,.card{border:1px solid var(--line);border-radius:14px;background:#fff}.stat{padding:14px 17px}.stat small{display:block;color:var(--muted)}.stat strong{display:block;font-size:27px;letter-spacing:-.7px;margin-top:2px}.panel{padding:18px 19px;margin-bottom:18px}
+.filters{display:grid;grid-template-columns:2fr 1.4fr 1fr 1fr 1fr;gap:12px;align-items:end}.control{min-width:0}.control label{display:block;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:#65758a;margin-bottom:6px}.control input,.control select{width:100%;border:1px solid #d6e1ed;border-radius:8px;background:#fff;height:41px;padding:8px 10px;color:var(--ink);min-width:0}.control input:focus-visible,.control select:focus-visible{outline:2px solid #63bad5;outline-offset:1px}
+.headline{display:flex;align-items:center;gap:12px;justify-content:space-between;margin:24px 0 13px}.headline .right{color:var(--muted);font-size:12px}.cards{display:grid;gap:12px}.card{padding:18px 20px}.top{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:9px}.tag{display:inline-flex;border:1px solid #dae9f3;background:#eef7fe;color:#1b618b;border-radius:100px;padding:3px 10px;font-size:11px;font-weight:750}.tag.full{background:#eaf6ef;color:#26704b;border-color:#d7eadc}.tag.partial{background:#fff5e9;color:#945c18;border-color:#eedcbe}.date{margin-left:auto;color:var(--muted);font-size:12px;font-weight:700}.card h3{font-size:16px;line-height:1.4;margin:0 0 7px}.card p{color:#3b4d61}.info{font-size:11px;color:var(--muted);margin-top:7px}.card details{border-top:1px solid #e8edf3;margin-top:14px;padding-top:10px}.card summary{cursor:pointer;color:var(--blue);font-weight:750;list-style:none}.card summary::-webkit-details-marker{display:none}.card summary:before{content:"▸ ";margin-right:6px}.card details[open] summary:before{content:"▾ "}.body{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;background:#f7f9fc;border:1px solid #e6ebf3;border-radius:10px;padding:16px;margin-top:12px;max-height:680px;overflow:auto}
+.empty{padding:45px;text-align:center;border:1px dashed var(--line);border-radius:14px;background:#fff;color:var(--muted)}.footnote{margin-top:30px;color:var(--muted);font-size:12px}button.reset{margin-top:12px;border:1px solid var(--line);background:#fff;border-radius:9px;padding:10px 14px;color:var(--blue);font-weight:700}
+@media(max-width:980px){.filters{grid-template-columns:1fr 1fr}.control:first-child{grid-column:span 2}.stats{grid-template-columns:1fr 1fr}}@media(max-width:580px){main{padding:23px 14px}.topbar{padding:15px 14px;gap:8px}.brand{font-size:14px}.topbar a{padding:7px 9px;font-size:12px}h1{font-size:24px}.stats{grid-template-columns:1fr 1fr}.stat strong{font-size:23px}.filters{grid-template-columns:1fr}.control:first-child{grid-column:span 1}.date{margin-left:0}.card{padding:16px}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="brand">◈ Central de Inteligência Fiscal</div><a href="./index.html">← Voltar ao painel legislativo</a></header>
+<main>
+<div style="color:#176a9b;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase">Arquivo de monitoramentos</div>
+<h1>Histórico de relatórios agendados</h1>
+<p class="lead">Pesquise os resultados antigos por radar, palavra-chave e data da execução. Este arquivo complementa o painel de atos normativos e preserva registros de verificações que já foram enviadas.</p>
+<div class="note"><strong>Limitação da recuperação:</strong> vários avisos antigos continham somente um resumo curto. Eles estão sinalizados como “Resumo recuperado”, e não como relatório completo. Consulte as normas nas fontes oficiais antes de aplicar qualquer providência tributária. Não houve nova validação legal neste processo de arquivamento.</div>
+<div class="stats">
+<div class="stat"><small>Registros no arquivo</small><strong id="total">—</strong></div>
+<div class="stat"><small>Relatórios completos</small><strong id="full">—</strong></div>
+<div class="stat"><small>Resumos de notificações</small><strong id="brief">—</strong></div>
+<div class="stat"><small>Resultados no filtro</small><strong id="shown">—</strong></div>
+</div>
+<section class="panel">
+<div class="filters">
+<div class="control"><label for="search">Pesquisar em tudo</label><input id="search" type="search" placeholder="Ex.: convênio 162, ICMS-ST, CT-e, Paraíba..."></div>
+<div class="control"><label for="radar">Agendamento / radar</label><select id="radar"><option value="">Todos os agendamentos</option><option>Radar Fiscal Estadual</option><option>Radar Tributário de Medicamentos</option><option>Radar LE Logística Norte/Nordeste</option><option>Relatório Fiscal Farmacêutico</option><option>Radar de Isenções de Medicamentos</option></select></div>
+<div class="control"><label for="from">Execução a partir de</label><input id="from" type="date"></div>
+<div class="control"><label for="to">Execução até</label><input id="to" type="date"></div>
+<div class="control"><label for="quality">Disponibilidade</label><select id="quality"><option value="">Tudo</option><option value="Relatório completo recuperado">Relatórios completos</option><option value="Resumo recuperado">Resumos recuperados</option><option value="Síntese de execução">Sínteses extraordinárias</option></select></div>
+</div>
+<button class="reset" id="reset">Limpar filtros</button>
+</section>
+<div class="headline"><h2>Registros históricos</h2><div class="right" id="range"></div></div>
+<div class="cards" id="cards"><div class="empty">Carregando histórico de relatórios...</div></div>
+<p class="footnote">Fonte dos registros: resultados de execuções de agendamentos e trechos de notificações recebidas. O Radar de Isenções de Medicamentos ainda não possuía execução concluída recuperável no momento do arquivamento.</p>
+</main>
+<script>
+'use strict';
+let records=[];
+const $=x=>document.getElementById(x);
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const nice=s=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(s))return s;const [y,m,d]=s.split('-');return d+'/'+m+'/'+y};
+const full=x=>x.completude==='Relatório completo recuperado';
+function render(){
+ const q=norm($('search').value.trim()),r=$('radar').value,from=$('from').value,to=$('to').value,quality=$('quality').value;
+ const found=records.filter(x=>(!r||x.radar===r)&&(!from||x.data>=from)&&(!to||x.data<=to)&&(!quality||x.completude===quality)&&(!q||norm([x.titulo,x.resumo,x.conteudo,x.radar,x.observacoes].join(' ')).includes(q)));
+ $('total').textContent=records.length;
+ $('full').textContent=records.filter(full).length;
+ $('brief').textContent=records.filter(x=>x.completude==='Resumo recuperado').length;
+ $('shown').textContent=found.length;
+ $('range').textContent=found.length?(nice(found[found.length-1].data)+' — '+nice(found[0].data)):'Sem registros';
+ $('cards').innerHTML=found.length?found.map(x=>'<article class="card"><div class="top"><span class="tag">'+esc(x.radar)+'</span><span class="tag '+(full(x)?'full':'partial')+'">'+esc(x.completude)+'</span><span class="date">'+nice(x.data)+'</span></div><h3>'+esc(x.titulo)+'</h3><p>'+esc(x.resumo)+'</p><details><summary>'+(x.conteudo?'Ler conteúdo recuperado':'Ver informações do registro')+'</summary>'+(x.conteudo?'<div class="body">'+esc(x.conteudo)+'</div>':'<div class="body">O conteúdo completo deste relatório não estava disponível no aviso histórico.\n\nResumo recuperado:\n'+esc(x.resumo)+'</div>')+'<div class="info">'+esc(x.observacoes||'')+'</div></details></article>').join(''):'<div class="empty">Nenhum relatório encontrado para os filtros selecionados. Isso também pode significar ausência de execução histórica recuperável desse radar.</div>';
+}
+async function load(){
+ try{const r=await fetch('./relatorios.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(!Array.isArray(data.relatorios))throw Error('Formato inesperado');records=data.relatorios.sort((a,b)=>b.data.localeCompare(a.data)||a.radar.localeCompare(b.radar));render()}catch(e){$('cards').innerHTML='<div class="empty">Falha ao carregar o histórico: '+esc(e.message)+'. Confira a publicação do GitHub Actions.</div>'}
+}
+['search','radar','from','to','quality'].forEach(x=>$(x).addEventListener('input',render));
+$('reset').addEventListener('click',()=>{['search','radar','from','to','quality'].forEach(x=>$(x).value='');render()});
+load();
+</script>
+</body>
+</html>
