@@ -1,0 +1,32 @@
+{
+  "id": "2026-exemplo-norma-estado",
+  "titulo": "EXEMPLO — não publicar como notícia real",
+  "resumo": "Substitua por uma alteração validada.",
+  "publicacao": "2026-11-16",
+  "vigencia": "",
+  "uf": [
+    "PB"
+  ],
+  "tema": [
+    "ICMS"
+  ],
+  "impacto": [
+    "Oncoexo",
+    "LE Logística"
+  ],
+  "tipo": "Exemplo",
+  "norma": "Identificação da norma oficial",
+  "antes": "O que era exigido anteriormente",
+  "depois": "O que mudou",
+  "providencias": "Providências práticas",
+  "radares": [
+    "Fiscal Estadual"
+  ],
+  "fontes": [
+    {
+      "titulo": "Fonte oficial - substitua",
+      "url": "https://www.gov.br/"
+    }
+  ],
+  "observacoes": "EXEMPLO FICTÍCIO, NÃO SUBMETER COMO ALTERAÇÃO REAL."
+}
