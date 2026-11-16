@@ -6,6 +6,8 @@ on:
     paths:
       - 'index.html'
       - 'atualizacoes.json'
+      - 'relatorios.html'
+      - 'relatorios.json'
       - '.github/workflows/publicar.yml'
   workflow_dispatch:
     inputs:
@@ -57,7 +59,7 @@ jobs:
         if: github.event_name == 'push' || steps.verificar.outputs.changed == 'true'
         run: |
           mkdir -p site_publico
-          cp index.html atualizacoes.json site_publico/
+          cp index.html atualizacoes.json relatorios.html relatorios.json site_publico/
           touch site_publico/.nojekyll
       - name: Preparar artefato
         if: github.event_name == 'push' || steps.verificar.outputs.changed == 'true'
