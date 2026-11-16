@@ -5,11 +5,11 @@
     "gerado_em": "2026-11-16",
     "aviso": "Parte dos documentos é apenas resumo recuperado de notificações do ChatGPT; isso não implica revalidação jurídica nem transcrição integral. O arquivo histórico não contém e-mails pessoais ou links de rastreamento.",
     "radares": [
-      "Fiscal Estadual",
-      "Reforma Tributária",
-      "LE Logística",
-      "Relatório Farmacêutico",
-      "Isenções de Medicamentos"
+      "Radar Fiscal Estadual",
+      "Radar Tributário de Medicamentos",
+      "Radar LE Logística Norte/Nordeste",
+      "Relatório Fiscal Farmacêutico",
+      "Radar de Isenções de Medicamentos"
     ],
     "lacunas": [
       "Isenções de Medicamentos: sem execução concluída anterior recuperável como agendamento.",
@@ -20,7 +20,7 @@
   "relatorios": [
     {
       "id": "historico-fiscal-estadual-2026-11-16-extra",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Varredura extraordinária — 16/11/2026",
       "data": "2026-11-16",
       "resumo": "Pesquisa antecipada do Radar Estadual. Dois novos registros enviados ao portal: Decreto PB 49.068/2026 (MOC NF-e) e comunicado SEFAZ-PE PERC 2026.",
@@ -31,7 +31,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-11-13",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-11-13",
       "data": "2026-11-13",
       "resumo": "Radar Tributário de Medicamentos Período incremental: 10 a 13 de novembro de 2026 Foco: novidades materiais posteriores ao relatório de terça-feira. Resumo executivo Nesta atualização, os pontos",
@@ -42,7 +42,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-11-12",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-11-12",
       "data": "2026-11-12",
       "resumo": "Radar Fiscal Estadual — 12/11/2026 Uma atualização operacional confirmada na Bahia: entrou em vigor em 11/11 a dispensa de inutilização de numeração da NF-e e NFC-e, com esclarecimento oficial sobre o",
@@ -53,7 +53,7 @@
     },
     {
       "id": "historico-6ad27b82-2026-11-12",
-      "radar": "LE Logística",
+      "radar": "Radar LE Logística Norte/Nordeste",
       "titulo": "Radar LE Logística Norte/Nordeste — 2026-11-12",
       "data": "2026-11-12",
       "resumo": "Radar Fiscal LE Logística — Norte e Nordeste Verificação de 12/11/2026. Nas fontes oficiais consultadas, incluindo ANTT, CONFAZ e SPED, não foi confirmada nova alteração normativa publicada desde a última verificação que justificasse alerta operacional à LE Logística. As regras de CIOT, piso mínimo do frete e integraçã",
@@ -64,7 +64,7 @@
     },
     {
       "id": "historico-6ab2c402-2026-11-10",
-      "radar": "Relatório Farmacêutico",
+      "radar": "Relatório Fiscal Farmacêutico",
       "titulo": "Relatório Fiscal Farmacêutico — 2026-11-10",
       "data": "2026-11-10",
       "resumo": "Relatório Fiscal e Regulatório Farmacêutico Período monitorado: 3 a 10 de novembro de 2026 Escopo: distribuidoras de medicamentos, com foco em documentos fiscais, Reforma Tributária, ICMS-ST e",
@@ -75,7 +75,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-11-09",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-11-09",
       "data": "2026-11-09",
       "resumo": "Radar Fiscal Estadual — 09/11/2026 Resultado: não foi confirmada nova alteração fiscal material publicada entre 08 e 09/11/2026 em PB, CE, BA, PA e PE. Entretanto, a revisão aprofundada da legislação",
@@ -86,7 +86,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-11-07",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-11-07",
       "data": "2026-11-07",
       "resumo": "Radar Fiscal Estadual — 07/11/2026 Identificada uma atualização normativa no Ceará, publicada em 05/11 e ainda não reportada. A mudança afeta procedimentos para obtenção de benefícios fiscais de ICMS",
@@ -97,7 +97,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-11-06",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-11-06",
       "data": "2026-11-06",
       "resumo": "Radar Fiscal Estadual — 06/11/2026 Resultado: identificada uma alteração tributária na Paraíba que entrou em vigor em 01/11/2026 e ainda não havia sido destacada nos relatórios anteriores. Não foram",
@@ -108,7 +108,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-11-06",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-11-06",
       "data": "2026-11-06",
       "resumo": "Radar tributário de medicamentos — 03 a 06/11/2026 Resumo executivo Duas novidades materiais surgiram após o relatório de terça-feira: a MP nº 1.399/2026 definiu as regras transitórias do Imposto",
@@ -119,7 +119,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-11-05",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-11-05",
       "data": "2026-11-05",
       "resumo": "Radar Fiscal Estadual — 05/11/2026 Duas alterações normativas identificadas na Paraíba, incluindo um decreto publicado hoje, e um vencimento de IPVA em Pernambuco. A principal novidade é o Decreto nº",
@@ -130,7 +130,7 @@
     },
     {
       "id": "historico-6ad27b82-2026-11-05",
-      "radar": "LE Logística",
+      "radar": "Radar LE Logística Norte/Nordeste",
       "titulo": "Radar LE Logística Norte/Nordeste — 2026-11-05",
       "data": "2026-11-05",
       "resumo": "Radar Fiscal LE Logística — Norte e Nordeste Período: 30/10 a 05/11/2026 Alerta fiscal — Aumento do ICMS sobre diesel em 2027 Abrangência: todos os 16 estados do Norte e Nordeste. Situação: alteração",
@@ -141,7 +141,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-11-04",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-11-04",
       "data": "2026-11-04",
       "resumo": "Radar Fiscal Estadual — 04/11/2026 Foram identificadas cinco atualizações relevantes ainda não detalhadas nos acompanhamentos anteriores, incluindo uma nova internalização estadual na Paraíba, mudanças",
@@ -152,7 +152,7 @@
     },
     {
       "id": "historico-6ab2c402-2026-11-03",
-      "radar": "Relatório Farmacêutico",
+      "radar": "Relatório Fiscal Farmacêutico",
       "titulo": "Relatório Fiscal Farmacêutico — 2026-11-03",
       "data": "2026-11-03",
       "resumo": "Relatório Fiscal Farmacêutico — 27/10 a 03/11/2026 Resumo executivo As mudanças operacionais relevantes da semana concentram-se nos documentos fiscais eletrônicos: novas versões das Notas Técnicas da",
@@ -163,7 +163,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-31",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-31",
       "data": "2026-10-31",
       "resumo": "Radar Fiscal Estadual — 31/10/2026 Identificadas 3 alterações materiais no Ceará que ainda não haviam sido detalhadas nos relatórios anteriores. A principal é a transformação do projeto de Refis 2026",
@@ -174,7 +174,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-30",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-30",
       "data": "2026-10-30",
       "resumo": "Radar Fiscal Estadual — 30/10/2026 Duas atualizações materiais confirmadas nesta varredura: Pernambuco — CRÍTICO: confirmado o conteúdo integral da LC 577/2026. O PERC 2026 foi ampliado, com descontos",
@@ -185,7 +185,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-10-30",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-10-30",
       "data": "2026-10-30",
       "resumo": "Radar tributário de medicamentos — 27 a 30/10/2026 Resumo executivo As duas novidades materiais da semana são: o TCU calculou em 11,3% a alíquota de referência da CBS para 2027, mas esse percentual",
@@ -196,7 +196,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-29",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-29",
       "data": "2026-10-29",
       "resumo": "Radar Fiscal Estadual — 29/10/2026 Identificadas duas novidades normativas relevantes: uma alteração no PERC 2026 de Pernambuco e uma prorrogação nacional de benefícios fiscais de ICMS, com reflexos",
@@ -207,7 +207,7 @@
     },
     {
       "id": "historico-6ad27b82-2026-10-29",
-      "radar": "LE Logística",
+      "radar": "Radar LE Logística Norte/Nordeste",
       "titulo": "Radar LE Logística Norte/Nordeste — 2026-10-29",
       "data": "2026-10-29",
       "resumo": "Radar Fiscal LE Logística — Norte e Nordeste Período analisado: 23 a 29 de outubro de 2026 Foram identificadas duas alterações oficiais na Paraíba, publicadas em 28/10/2026, com efeitos a partir de 1º/",
@@ -218,7 +218,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-27",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-27",
       "data": "2026-10-27",
       "resumo": "Radar Fiscal Estadual — 27/10/2026 Identificados 2 pontos novos de acompanhamento: um ato tributário no Ceará e um comunicado operacional na Paraíba. Estado | Atualização | Impacto | Decreto 37.584/",
@@ -229,7 +229,7 @@
     },
     {
       "id": "historico-6ab2c402-2026-10-27",
-      "radar": "Relatório Farmacêutico",
+      "radar": "Relatório Fiscal Farmacêutico",
       "titulo": "Relatório Fiscal Farmacêutico — 2026-10-27",
       "data": "2026-10-27",
       "resumo": "Relatório Fiscal Farmacêutico — 20 a 27/10/2026 Resumo executivo A semana trouxe três movimentos operacionais relevantes: Simplificação documental da Reforma Tributária para nanoempreendedores e MEIs,",
@@ -240,7 +240,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-26",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-26",
       "data": "2026-10-26",
       "resumo": "Radar Fiscal Estadual — 26/10/2026 Identificada 1 atualização técnica com marco de implantação hoje e 1 alteração administrativa na Paraíba com impacto potencial nos atendimentos fiscais. Estado /",
@@ -251,7 +251,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-24",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-24",
       "data": "2026-10-24",
       "resumo": "Radar Fiscal Estadual — 24/10/2026 Nenhuma nova alteração fiscal material foi confirmada desde o relatório de 23/10/2026. Entretanto, foi identificado um prazo técnico importante para a LE Logística,",
@@ -262,7 +262,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-23",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-23",
       "data": "2026-10-23",
       "resumo": "Radar Fiscal Estadual — 23/10/2026 Identificadas 3 novas alterações tributárias na, publicadas hoje. A principal para acompanhamento da LE Logística envolve o ICMS-ST nas operações interestaduais com",
@@ -273,7 +273,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-10-23",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-10-23",
       "data": "2026-10-23",
       "resumo": "Radar tributário e regulatório — 16 a 23/10/2026 Resumo executivo A atualização mais crítica para a Oncoexo é a interdição cautelar do lote 25D0808 do Fauldleuco, medicamento utilizado no suporte de",
@@ -284,7 +284,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-22",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-22",
       "data": "2026-10-22",
       "resumo": "Radar Fiscal Estadual — 22/10/2026 Identificada 1 atualização material no: o Refis 2026 avançou para tramitação legislativa, com a apresentação do Projeto de Lei nº 91/2026 em 21/10. Impacto potencial:",
@@ -295,7 +295,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-21",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-21",
       "data": "2026-10-21",
       "resumo": "Radar Fiscal Estadual — 21/10/2026 Identificada 1 atualização fiscal material em Pernambuco, publicada hoje. Impacto: ALTO para a distribuidora de medicamentos | MÉDIO para a LE Logística. A alteração",
@@ -306,7 +306,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-20",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-20",
       "data": "2026-10-20",
       "resumo": "Radar Fiscal Estadual — 20/10/2026 Identificada 1 atualização operacional relevante em Pernambuco, envolvendo novos editais de regularização cadastral e inaptidão de inscrições estaduais. Paraíba,",
@@ -317,7 +317,7 @@
     },
     {
       "id": "historico-6ab2c402-2026-10-20",
-      "radar": "Relatório Farmacêutico",
+      "radar": "Relatório Fiscal Farmacêutico",
       "titulo": "Relatório Fiscal Farmacêutico — 2026-10-20",
       "data": "2026-10-20",
       "resumo": "Relatório Fiscal Farmacêutico — 13 a 20/10/2026 Resumo executivo As novidades com impacto imediato são sanitárias: apreensão dos lotes falsificados de Keytruda e Dysport; cancelamento de registros de",
@@ -328,7 +328,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-19",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-19",
       "data": "2026-10-19",
       "resumo": "Radar Fiscal Estadual — 19/10/2026 Identificada 1 atualização operacional relevante em Pernambuco. Prazo de recolhimento prorrogado, com vencimento HOJE. 🔴 PERNAMBUCO — Prorrogação do recolhimento de",
@@ -339,7 +339,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-16",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-16",
       "data": "2026-10-16",
       "resumo": "Radar Fiscal Estadual — 16/10/2026 Foram identificadas 4 atualizações normativas e 1 republicação relevante. Estado | Atualização | Impacto 🔴 | Portaria SF 195/2026 — novos critérios de fiscalização da",
@@ -350,7 +350,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-10-16",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-10-16",
       "data": "2026-10-16",
       "resumo": "Radar tributário e regulatório — 09 a 16/10/2026 Resumo executivo A novidade de maior impacto imediato foi a Resolução RE Anvisa nº 4.009/2026, que suspendeu produtos, determinou apreensões e comunicou",
@@ -361,7 +361,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-15",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-15",
       "data": "2026-10-15",
       "resumo": "Radar Fiscal Estadual — 15/10/2026 Foram identificadas 2 atualizações tributárias relevantes: 🔴 Paraíba — CRÍTICO: publicada hoje a Medida Provisória 367/2026, instituindo o Refis ICMS 2026. Impacto",
@@ -372,7 +372,7 @@
     },
     {
       "id": "historico-6ab2c402-2026-10-13",
-      "radar": "Relatório Farmacêutico",
+      "radar": "Relatório Fiscal Farmacêutico",
       "titulo": "Relatório Fiscal Farmacêutico — 2026-10-13",
       "data": "2026-10-13",
       "resumo": "Relatório Fiscal Farmacêutico — 06 a 13/10/2026 Resumo executivo A novidade operacional mais relevante foi o avanço do destaque da CBS nos documentos fiscais: segundo a Receita Federal, 86% dos",
@@ -383,7 +383,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-11",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-11",
       "data": "2026-10-11",
       "resumo": "Radar Fiscal Estadual — 11/10/2026 Identificada 1 nova alteração relevante na Paraíba, publicada em 10/10/2026. 🔴 PARAÍBA — Decreto nº 48.909/2026: alterações nos procedimentos do CT-e Impacto: ALTO",
@@ -394,7 +394,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-10",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-10",
       "data": "2026-10-10",
       "resumo": "Radar Fiscal Estadual — 10/10/2026 Identificada 1 alteração estadual ainda não reportada: Pernambuco. A norma foi publicada em 08/10/2026 e altera os critérios de descredenciamento de atacadistas. Não",
@@ -405,7 +405,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-09",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-09",
       "data": "2026-10-09",
       "resumo": "Radar Fiscal Estadual — 09/10/2026 Identificada 1 atualização tributária material, com alteração de valores na. Não envolve diretamente medicamentos ou correlatos. PARAÍBA — Alteração do PMPF de",
@@ -416,7 +416,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-10-09",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-10-09",
       "data": "2026-10-09",
       "resumo": "Radar tributário e regulatório — 02 a 09/10/2026 Resumo executivo A principal novidade operacional foi a Resolução RE Anvisa nº 3.947/2026, que determinou proibições e recolhimentos de medicamentos,",
@@ -427,7 +427,7 @@
     },
     {
       "id": "historico-6ac6a57e-2026-10-08",
-      "radar": "Fiscal Estadual",
+      "radar": "Radar Fiscal Estadual",
       "titulo": "Radar Fiscal Estadual — 2026-10-08",
       "data": "2026-10-08",
       "resumo": "Radar Fiscal Estadual — 08/10/2026 Resultado: duas alterações de procedimento identificadas na que ainda não haviam sido destacadas no acompanhamento anterior. Uma delas entrou em vigor nesta semana. 1",
@@ -438,7 +438,7 @@
     },
     {
       "id": "historico-6ab2c402-2026-10-06",
-      "radar": "Relatório Farmacêutico",
+      "radar": "Relatório Fiscal Farmacêutico",
       "titulo": "Relatório Fiscal Farmacêutico — 2026-10-06",
       "data": "2026-10-06",
       "resumo": "Relatório Fiscal Farmacêutico — 29/09 a 06/10/2026 Resumo executivo A semana não trouxe nova norma nacional alterando CFOP, ICMS-ST, CEST, MVA ou a tributação diferenciada de medicamentos pelo IBS/CBS.",
@@ -449,7 +449,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-10-02",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-10-02",
       "data": "2026-10-02",
       "resumo": "Radar tributário e regulatório — 25/09 a 02/10/2026 Resumo executivo A semana teve duas novidades operacionais relevantes: 1. início da nova fase do Sistema Nacional de Controle de Receituários (SNCR);",
@@ -460,7 +460,7 @@
     },
     {
       "id": "historico-6ab2c402-2026-09-29",
-      "radar": "Relatório Farmacêutico",
+      "radar": "Relatório Fiscal Farmacêutico",
       "titulo": "Relatório Fiscal Farmacêutico — 2026-09-29",
       "data": "2026-09-29",
       "resumo": "Relatório Fiscal Farmacêutico — 22 a 29/09/2026 Resumo executivo A principal novidade da semana foi a publicação da Resolução CGSN nº 194/2026, alterando as regras da opção das empresas do Simples",
@@ -471,7 +471,7 @@
     },
     {
       "id": "historico-6ab2c1ef-2026-09-25",
-      "radar": "Reforma Tributária",
+      "radar": "Radar Tributário de Medicamentos",
       "titulo": "Radar Tributário de Medicamentos — 2026-09-25",
       "data": "2026-09-25",
       "resumo": "Radar tributário e regulatório — 18 a 25/09/2026 Nesta semana, não identifiquei nova norma nacional específica alterando a tributação de medicamentos, o ICMS-ST farmacêutico ou as alíquotas reduzidas",
