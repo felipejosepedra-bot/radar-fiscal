@@ -121,7 +121,7 @@
         "Geral"
       ],
       "tipo": "Orientação operacional",
-      "norma": "Atualização do PGDAS-D; Resolução CGSN nº 191/2026 e legislação da Reforma Tributária",
+      "norma": "Atualização do PGDAS-D; Resolução CGSN nº 190/2026, que altera a Resolução CGSN nº 140/2018",
       "antes": "O sistema não exigia a FS12 para todas as atividades nos períodos indicados nem produzia essas informações para o novo modelo de IBS/CBS.",
       "depois": "Nos PA 11 e 12/2026 deve ser informada a FS12; a partir de 2027 a apuração passa ao regime de competência e os dados apoiam as alíquotas efetivas dos documentos fiscais.",
       "providencias": "Empresas do Simples devem revisar folha e apuração; distribuidoras devem validar documentos recebidos de fornecedores optantes, sem assumir impacto direto no regime normal.",
@@ -129,9 +129,13 @@
         {
           "titulo": "Receita Federal — atualização do PGDAS-D",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/pgdas-d-e-atualizado-para-atender-a-reforma-tributaria-a-partir-de-novembro-de-2026"
+        },
+        {
+          "titulo": "Receita Federal — Resolução CGSN nº 140/2018 consolidada",
+          "url": "https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=92278"
         }
       ],
-      "observacoes": "Impacto direto para optantes do Simples; para distribuidoras no regime normal, o efeito é principalmente na conferência de fornecedores.",
+      "observacoes": "Impacto direto para optantes do Simples; para distribuidoras no regime normal, o efeito é principalmente na conferência de fornecedores. Base normativa da FS12: Resolução CGSN nº 140/2018, com alterações da Resolução CGSN nº 190/2026.",
       "radares": [
         "Relatório Farmacêutico"
       ]
