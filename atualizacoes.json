@@ -1,6 +1,177 @@
 {
   "atualizacoes": [
     {
+      "id": "2026-ms-nt74-af-onco-operacionalizacao",
+      "titulo": "Ministério da Saúde orienta distribuição de novos medicamentos do AF-Onco",
+      "resumo": "A Nota Técnica nº 74/2026 orienta a operacionalização de pazopanibe, lanreotida, abemaciclibe, rituximabe e trastuzumabe no âmbito da Assistência Farmacêutica em Oncologia.",
+      "publicacao": "2026-11-13",
+      "vigencia": "2026-11-13",
+      "uf": [
+        "Federal"
+      ],
+      "tema": [
+        "Medicamentos",
+        "Oncologia",
+        "Compras públicas",
+        "Distribuição"
+      ],
+      "impacto": [
+        "Oncoexo"
+      ],
+      "tipo": "Orientação técnica",
+      "norma": "Nota Técnica nº 74/2026-COAFMO/CGAFAE/DAF/SCTIE/MS",
+      "antes": "A operacionalização das novas ofertas e indicações ainda não estava consolidada nessa orientação específica.",
+      "depois": "O Ministério da Saúde publicou diretrizes para programação e disponibilização dos medicamentos no AF-Onco.",
+      "providencias": "Para contratos públicos abrangidos, validar apresentações, programação, destinatários, condições logísticas, cadeia fria quando aplicável e documentos de entrega.",
+      "fontes": [
+        {
+          "titulo": "Ministério da Saúde — Nota Técnica nº 74/2026",
+          "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2026/nota-tecnica-no-74-2026-coafmo-cgafae-daf-sctie-ms.pdf/view"
+        }
+      ],
+      "observacoes": "É orientação operacional do SUS; não cria por si só isenção de ICMS nem benefício automático de IBS/CBS.",
+      "radares": [
+        "Relatório Farmacêutico"
+      ]
+    },
+    {
+      "id": "2026-anvisa-re-4427-bupivacaina-glicose-lote-ar00125",
+      "titulo": "Anvisa recolhe lote de bupivacaína com glicose",
+      "resumo": "A Resolução-RE nº 4.427/2026 determinou o recolhimento do lote AR-001/25 de Cloridrato de Bupivacaína + Glicose, proibindo venda, distribuição e uso.",
+      "publicacao": "2026-11-13",
+      "vigencia": "2026-11-13",
+      "uf": [
+        "Federal"
+      ],
+      "tema": [
+        "Medicamentos",
+        "Anvisa",
+        "Recolhimento",
+        "Distribuição"
+      ],
+      "impacto": [
+        "Oncoexo"
+      ],
+      "tipo": "Medida sanitária preventiva",
+      "norma": "Resolução-RE Anvisa nº 4.427/2026",
+      "antes": "O lote poderia estar disponível na cadeia comercial e hospitalar.",
+      "depois": "O lote não pode ser vendido, distribuído ou utilizado devido a resultado insatisfatório e presença de partícula estranha.",
+      "providencias": "Bloquear imediatamente o lote no ERP/WMS; segregar estoque; pesquisar expedições e cargas; comunicar responsável técnico e seguir instruções de recolhimento.",
+      "fontes": [
+        {
+          "titulo": "Anvisa — recolhimento de anestésico",
+          "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-recolhimento-de-anestesico-e-proibe-propaganda-de-produtos-de-cannabis"
+        }
+      ],
+      "observacoes": "O registro trata somente do medicamento e lote indicados; outras medidas do mesmo ato não foram ampliadas por inferência.",
+      "radares": [
+        "Relatório Farmacêutico"
+      ]
+    },
+    {
+      "id": "2026-anvisa-re-4422-ifas-tirzepatida-retatrutida",
+      "titulo": "Anvisa recolhe IFAs de tirzepatida e retatrutida",
+      "resumo": "A Resolução-RE nº 4.422/2026 determinou recolhimento, suspensão de venda, distribuição e uso do lote 20241030 de IFA tirzepatida e de todos os lotes de IFA retatrutida alcançados pelo ato.",
+      "publicacao": "2026-11-12",
+      "vigencia": "2026-11-12",
+      "uf": [
+        "Federal"
+      ],
+      "tema": [
+        "Medicamentos",
+        "Anvisa",
+        "Recolhimento",
+        "Distribuição"
+      ],
+      "impacto": [
+        "Oncoexo"
+      ],
+      "tipo": "Medida sanitária preventiva",
+      "norma": "Resolução-RE Anvisa nº 4.422/2026",
+      "antes": "Os lotes ainda poderiam estar presentes na cadeia de armazenagem ou distribuição.",
+      "depois": "Venda, distribuição e uso ficam suspensos e os produtos devem ser recolhidos conforme o ato.",
+      "providencias": "Bloquear produto e lote no ERP/WMS; pesquisar estoque e cargas em trânsito; segregar fisicamente; identificar destinatários e seguir o procedimento do responsável técnico.",
+      "fontes": [
+        {
+          "titulo": "Anvisa — recolhimento de IFAs",
+          "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-recolhimento-de-insumos-tirzepatida-e-retatrutida-por-armazenamento-irregular"
+        }
+      ],
+      "observacoes": "Fundamentos materiais citados pela Anvisa: art. 47 da RDC 654/2022 e art. 5º da RDC 204/2006.",
+      "radares": [
+        "Relatório Farmacêutico"
+      ]
+    },
+    {
+      "id": "2026-pgdas-d-fs12-pas-11-12",
+      "titulo": "PGDAS-D passa a exigir FS12 para novembro e dezembro de 2026",
+      "resumo": "A atualização do PGDAS-D exige a informação da folha de salários dos últimos 12 meses nos PA 11 e 12/2026 e prepara as alíquotas efetivas de IBS/CBS do Simples.",
+      "publicacao": "2026-11-13",
+      "vigencia": "2026-11-01",
+      "uf": [
+        "Federal"
+      ],
+      "tema": [
+        "Simples Nacional",
+        "IBS",
+        "CBS",
+        "Obrigações acessórias"
+      ],
+      "impacto": [
+        "Geral"
+      ],
+      "tipo": "Orientação operacional",
+      "norma": "Atualização do PGDAS-D; Resolução CGSN nº 191/2026 e legislação da Reforma Tributária",
+      "antes": "O sistema não exigia a FS12 para todas as atividades nos períodos indicados nem produzia essas informações para o novo modelo de IBS/CBS.",
+      "depois": "Nos PA 11 e 12/2026 deve ser informada a FS12; a partir de 2027 a apuração passa ao regime de competência e os dados apoiam as alíquotas efetivas dos documentos fiscais.",
+      "providencias": "Empresas do Simples devem revisar folha e apuração; distribuidoras devem validar documentos recebidos de fornecedores optantes, sem assumir impacto direto no regime normal.",
+      "fontes": [
+        {
+          "titulo": "Receita Federal — atualização do PGDAS-D",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/pgdas-d-e-atualizado-para-atender-a-reforma-tributaria-a-partir-de-novembro-de-2026"
+        }
+      ],
+      "observacoes": "Impacto direto para optantes do Simples; para distribuidoras no regime normal, o efeito é principalmente na conferência de fornecedores.",
+      "radares": [
+        "Relatório Farmacêutico"
+      ]
+    },
+    {
+      "id": "2026-ato-conjunto-rfb-cgibs-7-cronograma-dfe-dere",
+      "titulo": "Ato Conjunto nº 7 altera cronograma de documentos fiscais e DeRE",
+      "resumo": "O Ato Conjunto RFB/CGIBS nº 7/2026 alterou datas de documentos fiscais especiais e da Declaração de Regimes Específicos, com primeira entrega de eventos mensais da DeRE em 15/12/2026.",
+      "publicacao": "2026-11-13",
+      "vigencia": "2026-11-13",
+      "uf": [
+        "Federal"
+      ],
+      "tema": [
+        "IBS",
+        "CBS",
+        "Obrigações acessórias",
+        "Documentos fiscais"
+      ],
+      "impacto": [
+        "Oncoexo",
+        "LE Logística"
+      ],
+      "tipo": "Alteração de cronograma normativo",
+      "norma": "Ato Conjunto RFB/CGIBS nº 7, de 11/11/2026",
+      "antes": "O Ato Conjunto nº 4/2026 previa datas anteriores para parte dos documentos especiais e para eventos da DeRE.",
+      "depois": "Eventos mensais da DeRE passam a 15/12/2026, com outros eventos em fevereiro de 2027; documentos e situações específicas foram deslocados para janeiro ou março de 2027.",
+      "providencias": "Atualizar a matriz de implantação; confirmar com ERP, emissores, fornecedores e prestadores quais modelos afetam cada operação; manter testes sem alterar CFOP ou ICMS-ST.",
+      "fontes": [
+        {
+          "titulo": "CGIBS — Ato Conjunto RFB/CGIBS nº 7/2026",
+          "url": "https://cgibs.gov.br/upload/arquivos/202611/13061456-ato-conjunto-7-rfb-cgibs-alteracao-ato-4.pdf"
+        }
+      ],
+      "observacoes": "O ato altera cronogramas de documentos específicos; não representa postergação geral da CBS ou do IBS.",
+      "radares": [
+        "Relatório Farmacêutico"
+      ]
+    },
+    {
       "id": "2026-pe-perc-comunicado-1311",
       "titulo": "PE: SEFAZ orienta sobre adesão ao PERC 2026 e prazo de 28 de dezembro",
       "resumo": "Comunicado oficial de 13/11/2026 detalha condições do PERC 2026, já instituído pela LC 575/2026 e ampliado pela LC 577/2026. ICMS relativo a fatos geradores até 30/06/2026 pode ter redução de multas e juros conforme enquadramento, e prazo geral de 28/12/2026.",
