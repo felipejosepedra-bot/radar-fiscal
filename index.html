@@ -99,7 +99,7 @@ async function loadLeReport(){
   const r=await fetch('./relatorios.json',{cache:'no-store'});
   if(!r.ok)throw Error('HTTP '+r.status);
   const j=await r.json();
-  const items=Array.isArray(j.relatorios)?j.relatorios.filter(x=>x&&x.radar==='Radar LE Logística Norte/Nordeste'&&/^\\d{4}-\\d{2}-\\d{2}$/.test(x.data)&&x.resumo):[];
+  const items=Array.isArray(j.relatorios)?j.relatorios.filter(x=>x&&x.radar==='Radar LE Logística Norte/Nordeste'&&typeof x.data==='string'&&x.data.length===10&&x.resumo):[];
   items.sort((a,b)=>b.data.localeCompare(a.data));
   const d=items[0];
   if(!d){$('latestLeReport').style.display='none';return;}
