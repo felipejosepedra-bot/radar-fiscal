@@ -25,17 +25,19 @@ concurrency:
   group: central-radar-pages
   cancel-in-progress: false
 
+
 jobs:
-  publicar:
+  preparar:
+    name: Preparar publicação
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      publicar: ${{ steps.decidir.outputs.publicar }}
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
       - uses: actions/setup-python@v5
+        if: github.event_name == 'workflow_dispatch'
         with:
           python-version: '3.12'
       - name: Analisar novas alterações
@@ -52,21 +54,36 @@ jobs:
           git add atualizacoes.json
           git commit -m 'Incorporar alterações ao Radar Fiscal'
           git push origin HEAD:main
-      - name: Configurar GitHub Pages
+      - name: Confirmar necessidade de publicação
         if: github.event_name == 'push' || steps.verificar.outputs.changed == 'true'
+        id: decidir
+        run: echo "publicar=true" >> "$GITHUB_OUTPUT"
+      - name: Configurar GitHub Pages
+        if: steps.decidir.outputs.publicar == 'true'
         uses: actions/configure-pages@v5
       - name: Separar arquivos públicos
-        if: github.event_name == 'push' || steps.verificar.outputs.changed == 'true'
+        if: steps.decidir.outputs.publicar == 'true'
         run: |
           mkdir -p site_publico
           cp index.html atualizacoes.json relatorios.html relatorios.json site_publico/
           touch site_publico/.nojekyll
       - name: Preparar artefato
-        if: github.event_name == 'push' || steps.verificar.outputs.changed == 'true'
+        if: steps.decidir.outputs.publicar == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site_publico
+
+  publicar:
+    name: Publicar GitHub Pages
+    needs: preparar
+    if: needs.preparar.outputs.publicar == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Aguardar disponibilidade do artefato
+        run: sleep 20
       - name: Publicar no Pages
-        if: github.event_name == 'push' || steps.verificar.outputs.changed == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
