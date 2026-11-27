@@ -19,6 +19,27 @@
   },
   "relatorios": [
     {
+      "id": "radar-fiscal-estadual-2026-11-27-recuperacao-25-27",
+      "radar": "Radar Fiscal Estadual",
+      "data": "2026-11-27",
+      "titulo": "Radar Fiscal Estadual — acumulado 25 a 27/11/2026",
+      "resumo": "PB: incorporação de regras nacionais de ICMS monofásico de combustíveis. PE: vencimento do Extrato Fronteiras em 27/11. PA: regulamentação do PROREFIS 2026.",
+      "conteudo": "PB — Lei 14.748/2026, publicada e vigente em 25/11, art. 6º: produtos e alíquotas específicas da LC 192/2022 definidos em convênios CONFAZ passam a contar com previsão expressa de incorporação sem ato estadual específico. Não muda por si só alíquota do combustível ou do frete. Regime anterior integral não confrontado. Oncoexo MÉDIO, LE Logística ALTO: monitorar convênios e conferir documentação, créditos admitidos e custos. Isenção de IPVA da mesma lei a partir de 01/01/2027 é restrita ao transporte público complementar intermunicipal de passageiros. Fonte: https://portal.sefaz.pb.gov.br/legislacao/34-leis/65-ipva/18168-lei-no-14-748-de-24-de-novembro-de-2026.\nPE — comunicado SEFAZ 25/11: Extrato Fronteiras vence 27/11, pois 28/11 é sábado, nos termos do art. 351 e Anexo 24 do RICMS. Oncoexo MUITO ALTO se saldo devido: validar DAE e pagamento; LE Logística BAIXO. Não altera alíquota. Fonte: https://www.sefaz.pe.gov.br/Noticias-Destaque/Paginas/Extrato-Fronteiras-de-novembro-vence-nesta-sexta-feira-%2827%29.aspx.\nPA — Decreto 5.811/2026, DOE extra de 25/11, regulamenta Lei 11.797/2026 e Convênio 126/2026. Débitos ICMS com fatos geradores até 30/06/2026. Adesão de 26/11 a 15/12, pagamento inicial até 15/12; à vista redução de 100% de juros e multas (até 95% para multa isolada de obrigação acessória); até cinco parcelas com redução de 80% e entrada de 50%. Parcela mínima 50 UPF-PA, SELIC e 1% no mês de pagamento conforme decreto. Reconhecimento irretratável e renúncia/desistência de litígios, revogação por descumprimento inclusive atrasos superiores a 60 dias nas hipóteses do art. 6º. Oncoexo ALTO e LE Logística MÉDIO condicionados a débitos elegíveis. Levantar débitos por estabelecimento e avaliar custo/benefício antes da adesão. Fonte: https://ioepa.com.br/pages/2026/2026.11.25.EXTRA.pdf (p. 4) e https://agenciapara.com.br/noticia/80790/governo-do-para-sanciona-lei-que-reduz-em-ate-100-multas-e-juros-de-tributos-estaduais.\nMed Fest: aplicabilidade depende de confirmação da operação/estabelecimento. Portarias PB 236 e 237 são administrativas; PE 216 trata de diesel para transporte público de passageiros. CE e BA: nenhuma nova mudança material confirmada nas buscas, cobertura incompleta; CONFAZ/DOU e demais diários não verificados integralmente. Portaria PB 250 não abriu; DOE PB retornou 403. Convênios 132/133 já registrados no radar de isenções.",
+      "origem": "Recuperação manual do agendamento",
+      "completude": "Relatório de recuperação com cobertura parcial",
+      "observacoes": "Consultar legislação vigente na fonte oficial. Permanecem lacunas de cobertura.",
+      "uf": [
+        "PB",
+        "PE",
+        "PA"
+      ],
+      "novidade_material": true,
+      "relevancia": {
+        "Oncoexo": "MUITO ALTO",
+        "LE Logística": "ALTO"
+      }
+    },
+    {
       "id": "radar-tributario-medicamentos-2026-11-27",
       "radar": "Radar Tributário de Medicamentos",
       "data": "2026-11-27",
